@@ -64,6 +64,11 @@ ul{
     color: #212121;
 
 }
+.link-st:focus,
+.link-st:hover
+{
+    color: #2196F3;
+}
 
 .mail{
     text-decoration: none;
@@ -77,6 +82,9 @@ ul{
     
     color: #757575;
 
+}
+.mail:hover{
+    color: #2196F3;
 }
 .tel{
     text-decoration: none;
@@ -125,6 +133,9 @@ ul{
     letter-spacing: 0.06em;
     background-color: blue;
     color: white;
+}
+.btn :hover{
+    color: #188CE8;
 }
 .butn{
     font-family: 'Roboto';
